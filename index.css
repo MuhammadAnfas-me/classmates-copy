@@ -99,7 +99,10 @@
         align-items: flex-start;
         height: 100%;
         width: 100%;
-    }
+}video::-webkit-media-controls {
+  display: none !important;
+}
+
 /* @keyframes rotating {
     0%{
         transform: rotate(0deg);
@@ -145,4 +148,5 @@
     background-color: #fff;
 }.navbar-toggler{
     color: #fff;
+
 }
